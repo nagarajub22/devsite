@@ -1,0 +1,38 @@
+{
+  "name": "devsite",
+  "version": "1.0.0",
+  "description": "Personal portfolio using webgl",
+  "scripts": {
+    "app:build": "webpack --config tools/build/webpack.dev.config.js",
+    "app:build:prod": "webpack --config tools/build/webpack.prod.config.js",
+    "app:start": "webpack-dev-server --open --config tools/build/webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagarajub22/devsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagarajub22/devsite/issues"
+  },
+  "homepage": "https://github.com/nagarajub22/devsite#readme",
+  "devDependencies": {
+    "@types/three": "^0.142.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.2",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "three": "^0.142.0"
+  }
+}
